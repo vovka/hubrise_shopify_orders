@@ -1,0 +1,275 @@
+{
+  "orders": [
+      {
+          "id": 2506101620890,
+          "email": "",
+          "closed_at": null,
+          "created_at": "2020-06-14T03:41:58-04:00",
+          "updated_at": "2020-06-14T03:41:58-04:00",
+          "number": 2,
+          "note": "Another order",
+          "token": "45de20b8b3b6d7074b3ba7fd7408b801",
+          "gateway": "manual",
+          "test": false,
+          "total_price": "294.48",
+          "subtotal_price": "282.48",
+          "total_weight": 0,
+          "total_tax": "47.08",
+          "taxes_included": true,
+          "currency": "UAH",
+          "financial_status": "paid",
+          "confirmed": true,
+          "total_discounts": "38.52",
+          "total_line_items_price": "321.00",
+          "cart_token": null,
+          "buyer_accepts_marketing": false,
+          "name": "#1002",
+          "referring_site": null,
+          "landing_site": null,
+          "cancelled_at": null,
+          "cancel_reason": null,
+          "total_price_usd": "11.04",
+          "checkout_token": null,
+          "reference": null,
+          "user_id": 55704551578,
+          "location_id": 48092872858,
+          "source_identifier": null,
+          "source_url": null,
+          "processed_at": "2020-06-14T03:41:58-04:00",
+          "device_id": null,
+          "phone": null,
+          "customer_locale": null,
+          "app_id": 1354745,
+          "browser_ip": null,
+          "landing_site_ref": null,
+          "order_number": 1002,
+          "discount_applications": [
+              {
+                  "type": "manual",
+                  "value": "12.0",
+                  "value_type": "percentage",
+                  "allocation_method": "across",
+                  "target_selection": "all",
+                  "target_type": "line_item",
+                  "description": "For a good person:)",
+                  "title": "For a good person:)"
+              }
+          ],
+          "discount_codes": [
+              {
+                  "code": "For a good person:)",
+                  "amount": "38.52",
+                  "type": "percentage"
+              }
+          ],
+          "note_attributes": [],
+          "payment_gateway_names": [
+              "manual"
+          ],
+          "processing_method": "manual",
+          "checkout_id": null,
+          "source_name": "shopify_draft_order",
+          "fulfillment_status": null,
+          "tax_lines": [
+              {
+                  "price": "47.08",
+                  "rate": 0.2,
+                  "title": "PDV",
+                  "price_set": {
+                      "shop_money": {
+                          "amount": "47.08",
+                          "currency_code": "UAH"
+                      },
+                      "presentment_money": {
+                          "amount": "47.08",
+                          "currency_code": "UAH"
+                      }
+                  }
+              }
+          ],
+          "tags": "",
+          "contact_email": null,
+          "order_status_url": "https://vova-test-store-2.myshopify.com/40962785434/orders/45de20b8b3b6d7074b3ba7fd7408b801/authenticate?key=4d72723ad194334ebda290c66fc398e8",
+          "presentment_currency": "UAH",
+          "total_line_items_price_set": {
+              "shop_money": {
+                  "amount": "321.00",
+                  "currency_code": "UAH"
+              },
+              "presentment_money": {
+                  "amount": "321.00",
+                  "currency_code": "UAH"
+              }
+          },
+          "total_discounts_set": {
+              "shop_money": {
+                  "amount": "38.52",
+                  "currency_code": "UAH"
+              },
+              "presentment_money": {
+                  "amount": "38.52",
+                  "currency_code": "UAH"
+              }
+          },
+          "total_shipping_price_set": {
+              "shop_money": {
+                  "amount": "12.00",
+                  "currency_code": "UAH"
+              },
+              "presentment_money": {
+                  "amount": "12.00",
+                  "currency_code": "UAH"
+              }
+          },
+          "subtotal_price_set": {
+              "shop_money": {
+                  "amount": "282.48",
+                  "currency_code": "UAH"
+              },
+              "presentment_money": {
+                  "amount": "282.48",
+                  "currency_code": "UAH"
+              }
+          },
+          "total_price_set": {
+              "shop_money": {
+                  "amount": "294.48",
+                  "currency_code": "UAH"
+              },
+              "presentment_money": {
+                  "amount": "294.48",
+                  "currency_code": "UAH"
+              }
+          },
+          "total_tax_set": {
+              "shop_money": {
+                  "amount": "47.08",
+                  "currency_code": "UAH"
+              },
+              "presentment_money": {
+                  "amount": "47.08",
+                  "currency_code": "UAH"
+              }
+          },
+          "line_items": [
+              {
+                  "id": 5518278459546,
+                  "variant_id": 34682997604506,
+                  "title": "iPhone SE",
+                  "quantity": 1,
+                  "sku": "",
+                  "variant_title": null,
+                  "vendor": "vova-test-store-2",
+                  "fulfillment_service": "manual",
+                  "product_id": 5332249149594,
+                  "requires_shipping": true,
+                  "taxable": true,
+                  "gift_card": false,
+                  "name": "iPhone SE",
+                  "variant_inventory_management": "shopify",
+                  "properties": [],
+                  "product_exists": true,
+                  "fulfillable_quantity": 1,
+                  "grams": 0,
+                  "price": "321.00",
+                  "total_discount": "0.00",
+                  "fulfillment_status": null,
+                  "price_set": {
+                      "shop_money": {
+                          "amount": "321.00",
+                          "currency_code": "UAH"
+                      },
+                      "presentment_money": {
+                          "amount": "321.00",
+                          "currency_code": "UAH"
+                      }
+                  },
+                  "total_discount_set": {
+                      "shop_money": {
+                          "amount": "0.00",
+                          "currency_code": "UAH"
+                      },
+                      "presentment_money": {
+                          "amount": "0.00",
+                          "currency_code": "UAH"
+                      }
+                  },
+                  "discount_allocations": [
+                      {
+                          "amount": "38.52",
+                          "discount_application_index": 0,
+                          "amount_set": {
+                              "shop_money": {
+                                  "amount": "38.52",
+                                  "currency_code": "UAH"
+                              },
+                              "presentment_money": {
+                                  "amount": "38.52",
+                                  "currency_code": "UAH"
+                              }
+                          }
+                      }
+                  ],
+                  "admin_graphql_api_id": "gid://shopify/LineItem/5518278459546",
+                  "tax_lines": [
+                      {
+                          "title": "PDV",
+                          "price": "47.08",
+                          "rate": 0.2,
+                          "price_set": {
+                              "shop_money": {
+                                  "amount": "47.08",
+                                  "currency_code": "UAH"
+                              },
+                              "presentment_money": {
+                                  "amount": "47.08",
+                                  "currency_code": "UAH"
+                              }
+                          }
+                      }
+                  ]
+              }
+          ],
+          "fulfillments": [],
+          "refunds": [],
+          "total_tip_received": "0.0",
+          "admin_graphql_api_id": "gid://shopify/Order/2506101620890",
+          "shipping_lines": [
+              {
+                  "id": 2071883088026,
+                  "title": "q",
+                  "price": "12.00",
+                  "code": "custom",
+                  "source": "shopify",
+                  "phone": null,
+                  "requested_fulfillment_service_id": null,
+                  "delivery_category": null,
+                  "carrier_identifier": null,
+                  "discounted_price": "12.00",
+                  "price_set": {
+                      "shop_money": {
+                          "amount": "12.00",
+                          "currency_code": "UAH"
+                      },
+                      "presentment_money": {
+                          "amount": "12.00",
+                          "currency_code": "UAH"
+                      }
+                  },
+                  "discounted_price_set": {
+                      "shop_money": {
+                          "amount": "12.00",
+                          "currency_code": "UAH"
+                      },
+                      "presentment_money": {
+                          "amount": "12.00",
+                          "currency_code": "UAH"
+                      }
+                  },
+                  "discount_allocations": [],
+                  "tax_lines": []
+              }
+          ]
+      }
+  ]
+}

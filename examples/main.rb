@@ -18,7 +18,12 @@ ImporterClass = Importer::Orders
 
 shopify_client = Importer::Client::Shopify.new(ENV["SHOPIFY_SHOP_URL"], ENV["SHOPIFY_API_VERSION"])
 hubrise_client = Importer::Client::Hubrise.new(ENV["HUBRISE_ACCESS_TOKEN"])
-importer = ImporterClass.new(shopify_client, hubrise_client)
+importer = ImporterClass.new(
+  source_client: shopify_client,
+  destination_client: hubrise_client,
+  decorator_class: Importer::OrderDecorator,
+  force_curency: "EUR"
+)
 
 begin
   importer.import!

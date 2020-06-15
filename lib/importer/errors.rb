@@ -1,6 +1,6 @@
 module Importer
   class Error < StandardError
-    def initialize(message)
+    def initialize(message = "")
       super("Orders importer error. #{message}")
     end
   end
@@ -8,7 +8,7 @@ module Importer
   class ClientError < Error; end
 
   class ShopifyClientError < ClientError
-    def initialize(message)
+    def initialize(message = "")
       super("Shopify client #{message}")
     end
   end
@@ -22,7 +22,7 @@ module Importer
   class ShopifyAccessError < ShopifyClientError; end
 
   class HubriseClientError < ClientError
-    def initialize(message)
+    def initialize(message = "")
       super("Hubrise client #{message}. ")
     end
   end
