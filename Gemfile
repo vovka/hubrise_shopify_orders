@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 gem "rspec"
-gem "dotenv"
+gem "dotenv", require: "dotenv/load"
 gem "shopify_api"
-# gem "oauth2"
 gem "byebug"
